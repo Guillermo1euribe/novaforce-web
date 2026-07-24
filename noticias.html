@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <title>
+   Nova Force | Noticias
+  </title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet"/>
+  <link href="estilos.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-nova sticky-top">
+   <div class="container">
+    <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+     <span class="logo-mark">
+      <i class="bi bi-lightning-charge-fill">
+      </i>
+     </span>
+     <span class="logo-text">
+      NOVA
+      <span>
+       FORCE
+      </span>
+     </span>
+    </a>
+    <button class="navbar-toggler" data-bs-target="#nav" data-bs-toggle="collapse">
+     <span class="navbar-toggler-icon">
+     </span>
+    </button>
+    <div class="collapse navbar-collapse" id="nav">
+     <ul class="navbar-nav ms-auto">
+      <li class="nav-item">
+       <a class="nav-link" href="index.html">
+        Inicio
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link" href="nosotros.html">
+        Nosotros
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link" href="tienda.html">
+        Tienda
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link" href="contacto.html">
+        Contacto
+       </a>
+      </li>
+      <li class="nav-item dropdown">
+       <a class="nav-link dropdown-toggle active" data-bs-toggle="dropdown" href="#">
+        Más
+       </a>
+       <ul class="dropdown-menu dropdown-menu-dark">
+        <li>
+         <a class="dropdown-item" href="blog.html">
+          Blog
+         </a>
+        </li>
+        <li>
+         <a class="dropdown-item active" href="noticias.html">
+          Noticias
+         </a>
+        </li>
+       </ul>
+      </li>
+     </ul>
+    </div>
+   </div>
+  </nav>
+  <header class="page-head">
+   <div class="container text-center">
+    <span class="text-info">
+     ACTUALIDAD
+    </span>
+    <h1 class="mt-2">
+     Noticias Nova Force
+    </h1>
+    <p class="text-secondary">
+     Novedades, lanzamientos y avisos de nuestra tienda.
+    </p>
+   </div>
+  </header>
+  <main class="container pb-5">
+   <ul class="nav nav-tabs" id="newsTabs">
+    <li class="nav-item">
+     <button class="nav-link active" data-bs-target="#todas" data-bs-toggle="tab">
+      Todas
+      <span class="badge text-bg-secondary">
+       4
+      </span>
+     </button>
+    </li>
+    <li class="nav-item">
+     <button class="nav-link" data-bs-target="#exito" data-bs-toggle="tab">
+      <i class="bi bi-check-circle text-success">
+      </i>
+      Éxito
+     </button>
+    </li>
+    <li class="nav-item">
+     <button class="nav-link" data-bs-target="#aviso" data-bs-toggle="tab">
+      <i class="bi bi-exclamation-circle text-warning">
+      </i>
+      Avisos
+     </button>
+    </li>
+    <li class="nav-item">
+     <button class="nav-link" data-bs-target="#nuevo" data-bs-toggle="tab">
+      <i class="bi bi-stars text-info">
+      </i>
+      Novedades
+     </button>
+    </li>
+   </ul>
+   <div class="tab-content">
+    <div class="tab-pane fade show active" id="todas">
+     <div class="alert alert-success">
+      <i class="bi bi-check-circle me-2">
+      </i>
+      <strong>
+       Nueva colección:
+      </strong>
+      llegaron configuraciones Nova Force para gaming 1440p.
+     </div>
+     <div class="alert alert-warning">
+      <i class="bi bi-exclamation-triangle me-2">
+      </i>
+      <strong>
+       Aviso:
+      </strong>
+      los precios publicados son referenciales y pueden variar según disponibilidad.
+     </div>
+     <div class="alert alert-info">
+      <i class="bi bi-stars me-2">
+      </i>
+      <strong>
+       Novedad:
+      </strong>
+      ampliamos el catálogo con opciones de gama extrema.
+     </div>
+     <div class="alert alert-secondary">
+      <i class="bi bi-info-circle me-2">
+      </i>
+      <strong>
+       Atención:
+      </strong>
+      consulta disponibilidad antes de realizar tu pedido.
+     </div>
+    </div>
+    <div class="tab-pane fade" id="exito">
+     <div class="alert alert-success">
+      La sección de ensambles Nova Force ya cuenta con nuevas opciones de gama media y alta.
+     </div>
+    </div>
+    <div class="tab-pane fade" id="aviso">
+     <div class="alert alert-warning">
+      Las especificaciones y precios pueden cambiar según disponibilidad de componentes.
+     </div>
+    </div>
+    <div class="tab-pane fade" id="nuevo">
+     <div class="alert alert-info">
+      Nova Force incorpora configuraciones con DDR5 y almacenamiento NVMe de mayor capacidad.
+     </div>
+    </div>
+   </div>
+   <section class="mt-5">
+    <h2 class="mb-3">
+     Preguntas sobre nuestras novedades
+    </h2>
+    <div class="accordion" id="newsAcc">
+     <div class="accordion-item">
+      <h2 class="accordion-header">
+       <button class="accordion-button" data-bs-target="#n1" data-bs-toggle="collapse">
+        ¿Las noticias representan productos reales?
+       </button>
+      </h2>
+      <div class="accordion-collapse collapse show" data-bs-parent="#newsAcc" id="n1">
+       <div class="accordion-body">
+        Nuestras publicaciones reflejan el catálogo real de Nova Force y su comunicación comercial vigente.
+       </div>
+      </div>
+     </div>
+     <div class="accordion-item">
+      <h2 class="accordion-header">
+       <button class="accordion-button collapsed" data-bs-target="#n2" data-bs-toggle="collapse">
+        ¿Puedo consultar una configuración?
+       </button>
+      </h2>
+      <div class="accordion-collapse collapse" data-bs-parent="#newsAcc" id="n2">
+       <div class="accordion-body">
+        Sí. Puedes ir a Contacto y enviar una consulta con tu presupuesto y objetivo.
+       </div>
+      </div>
+     </div>
+     <div class="accordion-item">
+      <h2 class="accordion-header">
+       <button class="accordion-button collapsed" data-bs-target="#n3" data-bs-toggle="collapse">
+        ¿Dónde reviso el catálogo?
+       </button>
+      </h2>
+      <div class="accordion-collapse collapse" data-bs-parent="#newsAcc" id="n3">
+       <div class="accordion-body">
+        En la sección Tienda encontrarás cuatro categorías organizadas mediante Tabs.
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+  </main>
+  <footer class="footer-nova">
+   <div class="container text-center">
+    <h5 class="text-white">
+     NOVA FORCE
+    </h5>
+    <p>
+     Potencia que va más allá.
+    </p>
+    <p class="small mb-0">
+     2026 Nova Force
+    </p>
+   </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js">
+  </script>
+ </body>
+</html>
