@@ -23,7 +23,7 @@ HTML, CSS, Bootstrap 5.3.7 y Bootstrap Icons 1.11.3. Incluye JavaScript de Boots
 ## Ver el proyecto en tu equipo
 
 ```bash
-git clone https://github.com/Guillermo1euribe/novaforce-web.git
+git clone https://github.com/pavoneh/novaforce-web.git
 cd novaforce-web
 ```
 
@@ -51,4 +51,4 @@ Es una vitrina frontend estática: los productos se definen en HTML y los botone
 - [ ] Revisar accesibilidad de controles y navegación por teclado.
 
 ---
-Proyecto en el portafolio de [Guillermo](https://github.com/Guillermo1euribe).
+Proyecto en el portafolio de [Guillermo](https://github.com/pavoneh).
